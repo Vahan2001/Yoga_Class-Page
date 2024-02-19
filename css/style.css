@@ -1,0 +1,582 @@
+@import url('../fonts/stylesheet.css');
+@import url('../webfonts/iconsfont.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1313px;
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+}
+/* HEADER CSS START  */
+header {
+    width: 100%;
+    background-color: #f4f9f47e;
+    background-image: url('../images/Shape2.png');
+    background-repeat: no-repeat;
+    background-position: 163% 643px;
+}
+nav {
+    width: 100%;
+}
+.nav-mobile-menu {
+    display: none;
+}
+.mobile-menu-block-item > a {
+    text-decoration: none;
+    font-size: 21px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: "Baloo Bhai";
+}
+.mobile-menu-block-item  {
+    list-style: none;
+}
+.label-toogle {
+    position: absolute;
+    top: 55px;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: "Baloo Bhai";
+}
+.mobile-menu-block {
+    width: 0;
+    position: fixed;
+    top: 54px;
+    left: 22px;
+    bottom: 0;
+    background-color: #ffffff00;
+    transition: width 0.7s;
+    overflow: hidden;
+}
+.text-right {
+    text-align: right;
+}
+.mobile-menu-block label {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: "Baloo Bhai";
+    list-style: none;
+}
+#toogle-menu:checked + .mobile-menu-block {
+    width: 139px;
+    padding: 17px;
+}
+.nav-logo {
+    background-color: #a7d7c5;
+    width: 107px;
+}
+.nav-logo > a > img {
+    display:inline-block;
+    padding: 26px 0;
+}
+.nav-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-logo {
+    width: 10%;
+    transition-duration: 0.5s;
+}
+.nav-logo:hover {
+    background-color: #34fbe9;
+}
+.nav-menu {
+    width: 90%;
+    background-color: #e2ede8;
+    text-align: right;
+}
+.nav-menu > ul > li {
+    display: inline-block;
+    margin: 6.5px 0;
+    padding: 0px 45px;
+}
+.nav-menu > ul > li > a {
+    text-decoration: none;
+    font-size: 21px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: "Baloo Bhai";
+    transition-duration: 0.5s;
+}
+.nav-menu > ul > li > a:hover {
+    color: #34fbe9;
+}
+.header-flex {
+    width: 100%;
+    display: flex;
+}
+.header-block {
+    width: 50%;
+    background-image: url('../images/Shape.png');
+    background-repeat: no-repeat;
+    padding-bottom: 210px;
+}
+.header-block-img {
+    width: 375px;
+    margin: auto;
+}
+.header-block-img > img {
+    width: 100%;
+    border-radius: 50%;
+    margin: 135px 0;
+    border: 4px solid #bdd1cd;
+}
+.header-block-text {
+    width: 50%;
+    align-self: center;
+    padding-bottom: 10px;
+}
+.header-block-text > h1 {
+    font-size: 100px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+}
+.header-block-text > p {
+    font-size: 21px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0 80px 30px;
+}
+.header-block-text > a {
+    font-size: 17px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Lato";
+    border-radius: 10px;
+    background-color: #6c9894;
+    text-decoration: none;
+    padding: 4px 27px;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+.header-block-text > a:hover {
+    color: #6c9894;
+    background-color: #fefefc;
+}
+/* HEADER CSS END  */
+
+/* SECTION CSS START  */
+.section1 {
+    width: 100%;
+    background-color: #6c9894;
+    padding-bottom: 130px;
+}
+.section-text {
+    width: 100%;
+    padding-bottom: 15px;
+}
+.section-text > h2 {
+    font-size: 75px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+    padding-top: 115px;
+}
+.section-text > p {
+    font-size: 30px;
+    color: #f4f9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 20px 314px 0;
+}
+.section-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-block {
+    width: 30%;
+}
+.section-block-img {
+    width: 100%;
+    background-image: url('../images/Shape3.png');
+    background-repeat: no-repeat;
+}
+.section-block-img > img {
+    padding: 38px 0;
+}
+.section-block-text > h3 {
+    font-size: 37px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+}
+.section-block-text > p {
+    font-size: 22px;
+    color: #f4f9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 10px 10px;
+}
+/* SECTION CSS END  */
+
+/* SECTION 2 CSS START  */
+.section2 {
+    width: 100%;
+    background-image: url('../images/Shape4.png'), url('../images/Design.png');
+    background-repeat: no-repeat;
+    background-size: cover, auto;
+    background-color: white;
+    background-position: 0px 0px, -45px -79px;
+    padding: 432px 0 200px;
+}
+.section2-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section2block {
+    width: 30%;
+}
+.section2-block-circle {
+    width: 325px;
+    height: 325px;
+    border-radius: 50%;
+    border: 3px solid #6c9894;
+    margin: auto;
+    padding: 110px 0;
+}
+.section2-block-circle > h4 {
+    font-size: 67px;
+    color: #6c9894;
+    font-family: "Myriad Pro";
+}
+.section2-block-circle > p {
+    font-size: 27px;
+    color: #6c9894;
+    font-family: "Myriad Pro";
+    padding: 10px 10px;
+}
+/* SECTION 2 CSS END  */
+
+/* SECTION 3 CSS START  */
+.section3 {
+    width: 100%;
+    background-color: #6c9894;
+}
+.section3-flex {
+    width: 100%;
+    display: flex;
+}
+.section3-block-text {
+    width: 50%;
+    padding: 0 100px 0 95px;
+    align-self: center;
+}
+.section3-block-text > h3 {
+    font-size: 75px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+}
+.section3-block-text > p {
+    font-size: 30px;
+    color: #f4f9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.section3-block-text > a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    border-radius: 4px;
+    background-color: #f4f9f4;
+    padding: 12.5px 95px;
+    margin-top: 50px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+.section3-block-text > a:hover {
+    color: #f4f9f4;
+    background-color: #6c9894;
+}
+.section3-block-img {
+    width: 50%;
+}
+.section3-block-img > img{
+    width: 100%;
+    display: block;
+}
+/* SECTION 3 CSS END  */
+
+/* SECTION 4 CSS START  */
+.section4 {
+    width: 100%;
+    padding-top: 105px;
+    background-image: url('../images/Design2.png');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: 856px -119px;
+    padding-bottom: 75px;
+    background-color: #e5eee9;
+}
+.section4-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section4-block-img {
+    width: 45%;
+}
+.section4-block-img > img {
+    width: 100%;
+    display: block;
+}
+.section4-block-text {
+    width: 45%;
+    align-self: center;
+}
+.section4-block-text > h3 {
+    font-size: 75px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    padding: 0px 2px;
+}
+.section4-block-text > p {
+    font-size: 30px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.section4-block-text > a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+    text-align: center;
+    border-radius: 4px;
+    background-color: #6c9894;
+    padding: 12.5px 95px;
+    margin-top: 55px;
+    transition-duration: 0.5s;
+}
+.section4-block-text > a:hover {
+    color: #6c9894;
+    background-color: #f4f9f4;
+}
+/* SECTION 4 CSS END  */
+
+/* SECTION 5 CSS START  */
+.section5 {
+    width: 100%;
+    background-color: #6c9894;
+    padding-bottom: 95px;
+}
+.section5-text {
+    width: 100%;
+    padding: 115px 0 50px;
+}
+.section5-text > h2 {
+    font-size: 75px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+}
+.section5-text > p {
+    font-size: 30px;
+    color: #f4f9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0px 254px;
+}
+.section5-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section5-block {
+    width: 30%;
+    background-color: #f4f9f4;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.section5-block > h4, .section5-block > span  {
+    font-size: 37px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    display: block;
+    padding-top: 35px;
+}
+.section5-block > p {
+    font-size: 22px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 50px 10px 30px;
+}
+.section5-block > a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Baloo Bhai";
+    border-radius: 4px;
+    background-color: #6c9894;  
+    padding: 12.5px 76px;
+    transition-duration: 0.5s;
+}
+.section5-block > a:hover {
+    color: #6c9894;
+    background-color: #4acfc3;
+}
+/* SECTION 5 CSS END  */
+
+/* SECTION 6 CSS START  */
+.section6 {
+    width: 100%;
+    background-image: url('../images/Image6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 70px;
+}
+.section6-block {
+    width: 410px;
+    background-image: url('../images/Shape5.png');
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.section6-block > img {
+    border-radius: 50%;
+    border: 4px solid #6b9793;
+    margin: 43px;
+}
+.section6-block-text {
+    width: 100%;
+}
+.section6-block-text > p {
+    font-size: 58px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 10px 133px;
+}
+.section6-block-text > h4 {
+    font-size: 58px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+}
+/* SECTION 6 CSS END  */
+
+/* SECTION 7 CSS START  */
+.section7 {
+    width: 100%;
+    background-color: #6c9894;
+    padding-bottom: 210px;
+}
+.section7-text {
+    width: 100%;
+    margin: auto;
+    padding-top: 130px;
+}
+.section7-text > h2 {
+    font-size: 75px;
+    color: #f4f9f4;
+    font-family: "Baloo Bhai";
+}
+.section7-text > p {
+    font-size: 30px;
+    color: #f4f9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0 253px;
+}
+input[type="email"] {
+    width: 659px;
+    padding: 16.5px 17px;
+    background-color: #ffffff;
+    font-size: 25px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+    border-radius: 33px;
+    margin-top: 20px;
+    border: none;
+}
+button[type="submit"] {
+    font-size: 25px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+    width: 222px;
+    padding: 14.5px 11px 8.5px;
+    border-radius: 33px;
+    background-color: #f4f9f4;
+    margin: 0px 0px 0px -154px;
+    border: none;
+    transition-duration: 0.5s;
+}
+button[type="submit"]:hover {
+    color: #6c6c6c;
+    background-color: #34fbe9;
+}
+/* SECTION 7 CSS END  */
+
+/* FOOTER CSS START  */
+footer {
+    width: 100%;
+    padding: 150px 0 130px 0;
+}
+.footer-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-block-big {
+    width: 40%;
+    padding: 10px 10px;
+}
+.footer-block-big > h5 {
+    font-size: 33px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+}
+.footer-block-big > p {
+    font-size: 25px;
+    color: #6c9894;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.footer-block-small {
+    width: 18%;
+}
+.footer-block-small > h5 {
+    font-size: 33px;
+    color: #6c9894;
+    font-family: "Baloo Bhai";
+}
+.footer-block-small > ul > li {
+    list-style: none;
+}
+.footer-block-small > ul > li > a {
+   text-decoration: none;
+   font-size: 25px;
+   line-height: 44px;
+   color: #6c9894;
+   font-weight: 400;
+   font-family: "Montserrat";
+   transition-duration: 0.5s;
+}
+.footer-block-small > ul > li > a:hover {
+    color: #34fbe9;
+}
+.footer-block-small > ul > li > a > img {
+    background-color: #6c9894;
+    border-radius: 60%;
+    margin: 0 15px -6px 0;
+}
+/* FOOTER CSS END  */
